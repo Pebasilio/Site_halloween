@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <!--link para font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--final do link para font awesome-->
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <style>
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 5%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <header style="background-image: url('img/background_img.jpg');"><!--inicio do header-->
+            <div class="container">
+                <nav>
+
+                    <ul class="ul">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="origem.html">ORIGEM</a></li>
+                        <li><a href="historias.html">HISTÓRIAS</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
+                        <li><a href="CALCULADORA.html">CALCULADORA</a></li>
+                    </ul>
+
+                    <a href="index.html">
+                        <img src="img/logo.png" class="logo" alt="logo">
+                    </a>
+
+                </nav>
+            </div>
+            <section class="banner">
+                <div class="banner_text">
+                    <h1>Halloween</h1>
+                    <p>Quanto tempo demora para meu monstro ser postada?</p>
+
+                    <button id="open-modal" class="btn animate-btn">Saiba mais</button>
+                    <div id="fade" class="hide"></div>
+                    <div id="modal" class="hide">
+                        <div class="modal-header">
+                            <h2>Tempo de avaliação</h2>
+                            <button id="close-modal">Fechar</button>
+                        </div>
+
+                        <div class="modal-body">
+                            <p>O tempo de espera para a avaliação de um monstro ser postado pode ser tanto um momento de ansiedade
+                                quanto de reflexão criativa. Enquanto aguarda, o autor se vê revivendo cada detalhe,
+                                cada cena, questionando se a trama está completa ou se ainda há algo a ajustar. Esse
+                                intervalo é uma pausa necessária, onde o espaço e o tempo permitem que o monstro seja
+                                vista com outros olhos, mais distantes e críticos.
+                            </p>
+
+                            <p> O processo de avaliação vai além de
+                                simples correções; é uma oportunidade para que a narrativa seja compreendida em sua
+                                totalidade, para que seu impacto e sua mensagem sejam apreciados de maneira profunda. E,
+                                quando finalmente chega o feedback, ele traz consigo uma nova perspectiva, que pode
+                                transformar o conto em algo ainda mais forte e envolvente.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+        </header><!--final do header-->
+
+        <section class="forms">
+
+            <div class="form">
+
+                <div class="form_box">
+
+                    <h2 class="title">Envie seu Monstro</h2>
+
+                    <form action="" method="get">
+
+                        <input type="text" name="name" placeholder="Seu nome">
+                        <input type="email" name="email" placeholder="Seu  E-mail">
+                        <input type="text" name="historia" placeholder="Monstro">
+                        <textarea name="message" cols="30" rows="10" placeholder="Descrição do Monstro"></textarea>
+
+                        <button type="submit">Enviar</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+        
+
+        <footer class="final">
+            <div class="container">
+                <div class="links">
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-quora" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="javascript/contato.js"></script>
+</body>
+
+
+</html>
